@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="cucumber-java">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/cucumber-java" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/cucumber-java" recursive="false" />
+  </library>
+</component>
