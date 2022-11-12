@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="8.178">
+    <testcase classname="Login functionality" name="Ensure user succesfully login" time="4.475">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user is on SauceDemo homepage.........................................passed
+When user input standard_user...............................................undefined
+And user input secret_sauce.................................................skipped
+And user click enter........................................................skipped
+Then user verify success login result.......................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Login functionality" name="Ensure user failed login with password null" time="3.572">
+        <system-out><![CDATA[Given user is on SauceDemo homepage.........................................passed
+When user input username....................................................passed
+And user click enter........................................................passed
+Then user verify failed login...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

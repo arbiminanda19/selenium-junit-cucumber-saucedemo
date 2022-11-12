@@ -1,5 +1,7 @@
+@SecondRelease
 Feature: Product functionality
 
+  @Positive
   Scenario: Ensure amount of card incremented when product added to cart
 
     Given user is on SauceDemo homepage
