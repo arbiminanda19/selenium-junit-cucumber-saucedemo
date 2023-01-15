@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="19.502">
-    <testcase classname="Login functionality" name="Ensure user succesfully login" time="3.066">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="11.842">
+    <testcase classname="Login functionality" name="Ensure user succesfully login" time="1.47">
         <system-out><![CDATA[Given user is on SauceDemo homepage.........................................passed
 When user input standard_user as username...................................passed
 And user input secret_sauce as password.....................................passed
@@ -8,7 +8,7 @@ And user click enter........................................................pass
 Then user verify success login result.......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login functionality" name="Ensure user succesfully login 2" time="7.419">
+    <testcase classname="Login functionality" name="Ensure user succesfully login 2" time="6.008">
         <system-out><![CDATA[Given user is on SauceDemo homepage.........................................passed
 When user input performance_glitch_user as username.........................passed
 And user input secret_sauce as password.....................................passed
@@ -16,7 +16,7 @@ And user click enter........................................................pass
 Then user verify success login result.......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login functionality" name="Ensure user succesfully login 3" time="1.979">
+    <testcase classname="Login functionality" name="Ensure user succesfully login 3" time="1.109">
         <system-out><![CDATA[Given user is on SauceDemo homepage.........................................passed
 When user input failed_user as username.....................................passed
 And user input secret_sauce as password.....................................passed
@@ -24,7 +24,7 @@ And user click enter........................................................pass
 Then user verify failed login result........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login functionality" name="Ensure user failed login with wrong username and password" time="2.779">
+    <testcase classname="Login functionality" name="Ensure user failed login with wrong username and password" time="1.006">
         <system-out><![CDATA[Given user is on SauceDemo homepage.........................................passed
 When user input failed_user as username.....................................passed
 And user input secret_sauce as password.....................................passed
@@ -32,14 +32,14 @@ And user click enter........................................................pass
 Then user verify failed login result........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login functionality" name="Ensure user failed login with password null" time="2.23">
+    <testcase classname="Login functionality" name="Ensure user failed login with password null" time="1.075">
         <system-out><![CDATA[Given user is on SauceDemo homepage.........................................passed
 When user input standard_user as username...................................passed
 And user click enter........................................................passed
 Then user verify failed login...............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Product functionality" name="Ensure amount of card incremented when product added to cart" time="1.938">
+    <testcase classname="Product functionality" name="Ensure amount of card incremented when product added to cart" time="1.079">
         <system-out><![CDATA[Given user is on SauceDemo homepage.........................................passed
 When user input standard_user as username...................................passed
 And user input secret_sauce as password.....................................passed
